@@ -3,10 +3,8 @@ library(infer)
 
 # Check the current working directory
 
-setwd("C:/Users/USER/OneDrive/文件/R Studio/dataset")
-# Laptop: C:/Users/USER/OneDrive/文件/R Studio/dataset
-# PC: C:/Users/siuhi/OneDrive/文件/R Studio/dataset
-getwd()
+# setwd()
+# getwd()
 
 raw_data <- read_csv("student_placement_career_success_dataset.csv")
 # View(raw_data)
